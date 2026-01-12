@@ -2,6 +2,7 @@ import hashlib
 import os
 import json
 
+
 # 🔒 Static file path (edit this to match your environment)
 FILE_PATH = r"C:\Users\User\Desktop\filename.exe"
 
@@ -41,6 +42,7 @@ def generate_hash_report(file_path, output_json=False):
         for algo, digest in result.items():
             report += f"{algo}: {digest}\n"
         return report
+
 
 if __name__ == "__main__":
     print("🔍 Generating checksum report...")
