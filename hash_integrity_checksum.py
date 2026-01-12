@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+
+"""
+Author: Menny Levinski
+"""
+
 import hashlib
 import os
 import json
