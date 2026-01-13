@@ -48,6 +48,7 @@ def generate_hash_report(file_path, output_json=False):
             report += f"{algo}: {digest}\n"
         return report
 
+# --- Output ---
 if __name__ == "__main__":
     print("🔍 Generating checksum report...")
     print(generate_hash_report(FILE_PATH))
