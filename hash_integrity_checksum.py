@@ -89,4 +89,3 @@ if __name__ == "__main__":
 
     spinner.stop()
     print(report)
-    input("Press Enter to exit")
