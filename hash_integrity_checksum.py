@@ -41,7 +41,7 @@ class Spinner:
         self.thread.join()
 
 # 🔒 Static file path
-FILE_PATH = r"C:\Users\User\Desktop\SecuditorLite.exe"
+FILE_PATH = r"C:\Users\User\Desktop\Filename.exe"
 
 def calculate_file_hashes(file_path):
     if not os.path.isfile(file_path):
