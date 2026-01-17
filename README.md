@@ -1,4 +1,4 @@
-# Hash Checksum
+## Hash Checksum
 Hash output from files via Python code. Uses static file paths defined in the script.
 
 ## Requirements
